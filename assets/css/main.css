@@ -2919,7 +2919,9 @@ input, select, textarea {
 			position: relative;
 		}
 
-		
+		header > p {
+			font-style: italic;
+		}
 
 		header > h1 + p {
 			font-size: 1.1rem;
@@ -2949,9 +2951,6 @@ input, select, textarea {
 
 			header.major > :last-child {
 				margin-bottom: 0;
-				text-align: left;
-				width: 500px;
-				margin: auto;
 			}
 
 			header.major > p {
@@ -3760,6 +3759,7 @@ input, select, textarea {
 		background-color: #ffffff;
 		position: relative;
 		margin: 0 auto;
+		width: calc(100% - 4rem);
 		max-width: 72rem;
 		z-index: 2;
 	}
