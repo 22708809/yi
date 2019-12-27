@@ -296,7 +296,7 @@ input, select, textarea {
 		border-bottom-color: rgba(33, 41, 49, 0.5);
 	}
 
-		a:hover {
+		header h2:hover {
 			border-bottom-color: transparent;
 			color: #18bfef !important;
 		}
@@ -2620,7 +2620,7 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
-			margin: 2.5rem 0;
+			margin: 1rem 0;
 			width: 100%;
 		}
 
@@ -2950,7 +2950,7 @@ input, select, textarea {
 			header.major > :last-child {
 				margin-bottom: 0;
 				text-align: left;
-				width: 500px;
+				max-width: 500px;
 				margin: auto;
 			}
 
@@ -2999,6 +2999,7 @@ input, select, textarea {
 
 	header.major .date:before, header.major .date:after {
 		border-top-color: #eeeeee;
+		top: 20px;
 	}
 
 /* Table */
@@ -3857,8 +3858,8 @@ input, select, textarea {
 			}
 
 			#main > .posts > * {
-				padding: 4rem;
-				width: 50%;
+				padding: 10px;
+				width: 25%;
 			}
 
 			#main > .posts > article {
@@ -3869,9 +3870,6 @@ input, select, textarea {
 				text-align: center;
 			}
 
-				#main > .posts > article > :last-child {
-					margin-bottom: 0;
-				}
 
 				#main > .posts > article:nth-child(2n - 1) {
 					border-left-width: 0;
